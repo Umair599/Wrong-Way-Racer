@@ -1,0 +1,17 @@
+.participant-list {
+  padding: 4px;
+  .participant-list-item {
+    padding: 2px;
+    .participant-list-item-avatar {
+        min-width: auto;
+    }
+    .participant-list-item-text {
+      color: #ffffff !important;
+      line-height: 22px !important;
+      font-size: smaller !important;
+      .MuiTypography-root {
+        font-size: inherit;
+      }
+    }
+  }
+}

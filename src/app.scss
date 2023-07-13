@@ -1,0 +1,18 @@
+.app-main-container {
+  background: radial-gradient(101.35% 101.35% at 50% 22.11%, #4E2082 0%, #0C0C4C 71.87%), #131444;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  width: 100%;
+  .app-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .app-info-container {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+    }
+  }
+}
